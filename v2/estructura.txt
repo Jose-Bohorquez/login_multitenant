@@ -1,0 +1,33 @@
+/mi_proyecto/
+│
+├── /assets/
+│   ├── Fondo3.png
+│   ├── logo_servientrega.png
+│   ├── logo_empresa2.png
+│   └── logo_empresa3.png
+│
+├── /models/
+│   └── Database.php
+│   └── User.php
+│   └── Rol.php
+│ 
+│ 
+├── /controllers/
+│   └── Roles.php
+│   └── Users.php
+│   └── Dashboard.php
+│   └── Landing.php
+│
+├── /views/
+│   ├── /dashboard/
+│   ├── /landing/
+│   │        └── login.php
+│   └── /empresa/
+│        └── /servientrega/
+│               └── perfil.php
+│        └── /global/
+│               └── perfil.php
+│        └── /servitel/
+│               └── perfil.php
+│
+└── index.pxp

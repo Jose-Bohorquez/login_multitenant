@@ -1,0 +1,41 @@
+/mi_proyecto/
+│
+├── /controllers/
+│   ├── LoginCtlr.php          # Controlador para la lógica de inicio de sesión
+│   └── Users.php              # Controlador para la lógica de usuarios
+│
+├── /models/
+│   ├── LoginMod.php           # Modelo para la lógica de inicio de sesión (si es necesario)
+│   ├── Database.php           # Modelo para la conexión a la base de datos
+│   └── User.php               # Modelo para la lógica de usuarios
+│
+├── /views/
+│   ├── login.view.php         # Vista para el formulario de inicio de sesión
+│   ├── roles/                 # Vistas separadas por roles
+│   │       └── admin/              # Vistas para usuarios
+│   │       │	 ├── servientrega/
+│   │       │	 │		└── index.view.dashboard.servientrega.php 
+│   │		│	 │
+│   │       │	 ├── servitel/
+│   │       │	 │		└── index.view.dashboard.servitel.php 
+│   │		│	 │
+│   │       │ 	 └── global/
+│   │       │			└── index.view.dashboard.global.php 
+│   │   	└── user/              # Vistas para usuarios
+│   │       	  ├── servientrega/
+│   │       	  │		└── index.view.profile.servientrega.php # vista especifica para perfil de usuario de servientrega
+│   │			  │
+│   │       	  ├── servitel/
+│   │       	  │		└── index.view.profile.servitel.php # vista especifica para perfil de usuario de servitel
+│   │			  │
+│   │       	  └── global/
+│   │       		└── index.view.profile.global.php # vista especifica para perfil de usuario de global
+│   │
+│   │
+├── /assets/                   # Archivos estáticos (CSS, JS, imágenes)
+│   ├── /bootstrap/            # Archivos CSS de Bootstrap
+│   ├── /css/                  # Archivos CSS personalizados
+│   ├── /js/                   # Archivos JavaScript personalizados
+│   └── /imagenes/             # Imágenes para las vistas
+│
+└── index.php                  # Punto de entrada de la aplicación

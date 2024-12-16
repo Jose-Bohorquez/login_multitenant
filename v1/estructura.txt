@@ -1,0 +1,28 @@
+/login_multitenant
+    /app
+        /controllers
+            EmpresaController.php      # Controlador que maneja la lógica de la empresa
+            LoginController.php        # Controlador para login de usuarios
+            DashboardController.php    # Controlador para la página principal del usuario (después del login)
+        /models
+            Empresa.php                # Modelo para empresas
+            Usuario.php                # Modelo para usuarios
+            Database.php               # Clase para la conexión a la base de datos
+        /views
+            /empresa                  # Vistas para las empresas
+                /global
+                    index.php         # Vista de login y bienvenida para Global
+                /servitel
+                    index.php         # Vista de login y bienvenida para Servitel
+                /servientrega
+                    index.php         # Vista de login y bienvenida para Servientrega
+                index.php             # Vista común de login de empresas
+                error.php             # Vista para mostrar errores
+            /dashboard                # Vistas para admins y superadmin
+                index.php             # Vista principal del usuario después del login
+        /assets
+            /css
+                styles.css            # Archivos CSS comunes
+            /js
+                scripts.js            # Archivos JavaScript comunes
+    index.php                       # Página principal para ruteo y ejecución
