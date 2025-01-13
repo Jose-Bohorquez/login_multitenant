@@ -19,7 +19,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
-<body class="d-flex justify-content-center align-items-center min-vh-100 bg-light" style="background-image: url('assets/imagenes/Fondo3.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+<body class="d-flex justify-content-center align-items-center min-vh-100 bg-light" style="background-image: url('assets/imagenes/fondo4.png'); background-size: cover; background-position: center; background-attachment: fixed;">
 
     <div class="container bg-white bg-opacity-75 p-4 rounded shadow-lg" style="max-width: 600px; width: 100%;">
         <h1 class="text-center mb-4" style="color: #2c3e50;">Ingreso Empresarial</h1>
